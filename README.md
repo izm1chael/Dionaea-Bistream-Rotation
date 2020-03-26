@@ -39,7 +39,7 @@ This script also stops Dionaea before running due to the over head on a $5 box c
 
 ## Cron Examples
 
-    #Run every 1.5 hours
+    # Run every 1.5 hours
     0 0,3,6,9,12,15,18,21 * * * /bin/bash /opt/scripts/bistreams-rot-do-drop.sh
     30 1,4,7,10,13,16,19,22 * * * /bin/bash /opt/scripts/bistreams-rot-do-drop.sh
 
