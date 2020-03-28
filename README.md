@@ -17,14 +17,14 @@ Dionaea Bistreams will fill up most VPS's in a couple of days unless the storage
 ## Generic Script
 
  -  [bistreams-rot-3-6.sh](https://github.com/izm1chael/Dionaea-Bistream-Rotation/blob/master/bistreams-rot-3-6.sh "bistreams-rot-3-6.sh")
-	 - Compress Every 3 Hours
-	 - Deletion Every 6 Hours
+	 - Compress Everything Older Than 3 Hours
+	 - Deletion Everything Older Than 6 Hours
  -  [bistreams-rot-6-12.sh](https://github.com/izm1chael/Dionaea-Bistream-Rotation/blob/master/bistreams-rot-6-12.sh "bistreams-rot-6-12.sh")
-	 - Compress Every 6 Hours
-	 - Deletion Every 12 Hours
+	 - Compress Everything Older Than 6 Hours
+	 - Deletion Everything Older Than 12 Hours
  -  [bistreams-rot-12-24.sh](https://github.com/izm1chael/Dionaea-Bistream-Rotation/blob/master/bistreams-rot-12-24.sh "bistreams-rot-12-24.sh")
-	 - Compress Every 12 Hours
-	 - Deletion Every 24 Hours
+	 - Compress Everything Older Than 12 Hours
+	 - Deletion Everything Older Than 24 Hours
 
 ## Digital Ocean Droplet Script
 When I initially started deploying Dionaea I was using $5 per month Digital Ocean Droplets, 
@@ -32,8 +32,8 @@ These where great due to the low cost, and thus enabling me to deploy Dionaea ac
 The issues were however that due to the volume of hits the boxes where getting the Bistreams started to fill up within a day or two. 
 This script also stops Dionaea before running due to the over head on a $5 box causing performance issues will the script runs
  -  [bistreams-rot-do-drop.sh](https://github.com/izm1chael/Dionaea-Bistream-Rotation/blob/master/bistreams-rot-do-drop.sh "bistreams-rot-do-drop.sh")
-	 - Compress Every 1.5 Hours
-	 - Deletion Every 3 Hours
+	 - Compress Everything Older Than 1.5 Hours
+	 - Deletion Everything Older Than 3 Hours
 	 - Stops Dionaea before running
 	 - Starts Dionaea before exiting
 
