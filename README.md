@@ -50,10 +50,7 @@ This script also stops Dionaea before running due to the over head on a $5 box c
     0 */6 * * * /bin/bash /opt/scripts/bistreams-rot-6-12.sh
 
     # Run every 12 hours
-    0 */12 * * * /bin/bash /opt/scripts/bistreams-rot-6-12.sh
-
-    # Run every 24 hours
-    0 */24 * * * /bin/bash /opt/scripts/bistreams-rot-6-12.sh
+    0 */12 * * * /bin/bash /opt/scripts/bistreams-rot-12-24.sh
    
 
 
